@@ -1,0 +1,7 @@
+   0 mkdir -p /home/user/start/1.txt /opt/task/start.txt
+   1 echo Start >> /1.txt
+   2 date
+   3 date >> /1.txt 
+   4 cp /1.txt /start.txt
+   5 df -h | grep -w / | tail -4 >> /start.txt 
+   6 history > /opt/history.txt
